@@ -1,0 +1,87 @@
+html {
+    font-family: 'Raleway', sans-serif;
+  }
+  #container-nav {
+    background: #333;
+    height: 4rem;
+    width: 100%;
+  }
+  nav {
+    background: #333;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    max-width: 60rem;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  .link-item {
+    color: white;
+    padding-right: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  #container-section {
+    background: #999;
+    width: 100%;
+  }
+  section {
+    background: #999;
+    padding: 50px 0;
+    max-width: 40%;
+    margin: 0 auto;
+  }
+  #image {
+    display: block;
+    width: 20rem;
+    border: white solid 5px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  #title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    margin: 50px 0 0 0;
+  }
+  #sub-head, p {
+    text-align: center;
+    color: white;
+  }
+  #sub-head {
+    font-size: 1.5rem;
+    font-weight: 300;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+    padding: 10px 0;
+       margin: 10px 0 50px 0; }
+       #input, #button {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border: none;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+      }
+      #input {
+        margin: 20px 0 10px 0;
+      }
+      #input:focus {
+        outline: none;
+      } 
+      #button {
+        color: rgba(85, 4, 122, 1);
+        border: rgba(85, 4, 122, 1) solid 2px;
+        background: none;
+        cursor: pointer;
+      }
+      #button:hover {
+        color: #999;
+        background: rgba(85, 4, 122, 1);
+        border: #999 solid 2px;
+      }
